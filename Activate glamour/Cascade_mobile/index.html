@@ -1,0 +1,37 @@
+<style>
+
+	.pco-activate-content {width: 90%!important;}
+
+	#container-pco img {max-width: 100%;height: auto;}
+	#container-pco a {color: #000;text-decoration: underline;}
+	#container-pco a:visited {color: #000}
+	#container-pco p {text-align: center;font-size: 0.7em;font-family:arial;line-height: 17px;margin-bottom: 35px;}
+
+	#container-pco {max-width: 640px;margin:auto;background:white;}
+
+	#container-pco .center {text-align: center;}
+ 	#container-pco input {width: 80%;margin: 10px 5px;font-size: 1.2em;border: 1px black solid;padding: 15px}
+ 	#container-pco input::placeholder {color: #3e3e3e;font-family:arial;margin: 2px auto}
+
+	#container-pco button {border:none;display:block;background:none;margin: 10px auto 20px;width: 240px}
+	#container-pco button:hover {cursor: pointer;}
+
+	a.pco-close {position: absolute;top: 0px;right: 0px;cursor: pointer;color: #cdcdcd!important;background-color:transparent; font-size: 35px;font-weight: lighter;line-height: 0px;padding: 12px 3px;font-family: initial;}
+
+</style>
+
+<div id="container-pco">
+	<img src="img1.jpg">
+
+	<form class="pco-form" name="activate">
+		<div class="center">
+			<input class="pco-field" type="email" name="email" size="64" maxLength="64" placeholder="Votre adresse e-mail" required>
+		</div>
+
+		<button type="button" class="yes_button pco-collect btn_special"><img src="img2.jpg" alt="Oui"></button>
+
+	</form>
+
+	<p><i>En vous inscrivant, vous acceptez<br /> les <a href="https://www.glamourparis.com/mentions-legales" target="_blank" style="text-decoration: underline;">Conditions Générales d'Utilisation</a>	et la <u><a href="https://www.glamourparis.com/politique-de-confidentialite" target="_blank" style="text-decoration: underline;">Politique de Confidentialité</a></u></i></p>
+<a class="pco-cancel pco-close"></a>
+</div>
